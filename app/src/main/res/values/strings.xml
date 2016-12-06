@@ -13,7 +13,7 @@
         The hosts file is from an Open Source Project of hosts on Github, I\'m Just a Porter of the Project.
         ]]>
     </string>
-    
+
     <string name="host_github">
         <![CDATA[
         Instructions:
@@ -27,7 +27,7 @@
         Ⅲ. If you find you can\'t explore on Google one day, please click the \"Update\" Button again. And if you don\'t want to use it, please click the \"Restore\" Button to initialize.
         ]]>
     </string>
-    
+
     <string name="author_github">Designed By Joshua-Zheng @ CSUFT</string>
     <string name="your_mobile_have_no_root">Your Mobile Have No Root.</string>
     <string name="huifu_host_tips">Restore Host Success.</string>
