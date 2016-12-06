@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                             e.printStackTrace();
                         }
                         mHandler.post( () -> {
-                            Toast.makeText(getContext(), R.string.get_last_host_tips, Toast.LENGTH_SHORT).show();
+                            tipsView.setText(getString(R.string.get_last_host_tips));
                             dismissDialog();
                         });
                     });
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void error() {
                     mHandler.post( () -> {
-                        Toast.makeText(getContext(), R.string.network_error, Toast.LENGTH_SHORT).show();
+                        tipsView.setText(getString(R.string.network_error));
                         dismissDialog();
                     });
                 }
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         //Restore按钮设置监听
         cleanHostBtn.setOnClickListener(view ->{
             if (!isMobileRoot) {
-                Toast.makeText(getContext(), R.string.get_root_fail, Toast.LENGTH_SHORT).show();
+                tipsView.setText(getString(R.string.get_root_fail));
                 return;
             }
             AsyncTask.execute( () -> {
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 RootTools.copyFile(getVoidHostPath(), "/system/etc/hosts", true, false);
                 mHandler.post( () ->
-                        Toast.makeText(getContext(), R.string.huifu_host_tips, Toast.LENGTH_SHORT).show()
+                        tipsView.setText(getString(R.string.huifu_host_tips))
                 );
             });
         });

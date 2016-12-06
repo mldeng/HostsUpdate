@@ -7,8 +7,8 @@ android {
         applicationId "com.zheng.hostsupdate"
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 306
-        versionName "#2.1"
+        versionCode 322
+        versionName "#2.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         //使用Jack编译器

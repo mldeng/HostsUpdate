@@ -1,83 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
+    android:paddingTop="@dimen/main_top"
     android:orientation="vertical"
     tools:context="com.zheng.hostsupdate.MainActivity">
+
+    <TextView
+        android:id="@+id/tips"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_top"
+        android:gravity="center"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:padding="@dimen/top"
-        android:divider="@drawable/spacer_medium"
-        android:showDividers="middle">
+        android:gravity="center">
 
         <Button
             android:id="@+id/proxy_btn"
             android:layout_width="@dimen/button_display"
             android:layout_height="@dimen/button_display"
             style="Android:attr/buttonBarButtonStyle"
-            android:background="@drawable/get"
+            android:background="@drawable/update"
             android:text="@string/get_last_host"
-            android:textColor="#ffffff"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/clean_host"
-            android:layout_width="@dimen/button_display"
-            android:layout_height="@dimen/button_display"
-            style="Android:attr/buttonBarButtonStyle"
-            android:background="@drawable/restore"
-            android:text="@string/huifu_host"
-            android:textColor="#ffffff"
-            android:textSize="20sp" />
-
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/text_size" />
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:divider="@drawable/spacer_medium"
-        android:showDividers="middle">
+        android:layout_height="@dimen/bottom_dutton"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_row="7"
+        android:layout_column="0">
+
+        <Button
+            android:id="@+id/clean_host"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="Android:attr/buttonBarButtonStyle"
+            android:background="@color/restore_button"
+            android:text="@string/huifu_host"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/text_size" />
 
         <Button
             android:id="@+id/read_host"
-            android:layout_width="@dimen/button_display"
-            android:layout_height="@dimen/button_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             style="Android:attr/buttonBarButtonStyle"
-            android:background="@drawable/read"
+            android:background="@color/read_button"
             android:text="@string/read_host"
-            android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/text_size" />
 
         <Button
             android:id="@+id/about_button"
-            android:layout_width="@dimen/button_display"
-            android:layout_height="@dimen/button_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             style="Android:attr/buttonBarButtonStyle"
-            android:background="@drawable/about"
+            android:background="@color/about_button"
             android:text="@string/about"
-            android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/text_size" />
     </LinearLayout>
 
-
-    <TextView
-        android:id="@+id/tips"
-        android:padding="@dimen/activity_horizontal_margin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="end"
-        android:gravity="bottom"
-        android:text="@string/about_author"/>
-
-</LinearLayout>
+</GridLayout>
