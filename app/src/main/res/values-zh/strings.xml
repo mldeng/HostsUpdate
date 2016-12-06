@@ -13,14 +13,14 @@
 
     <string name="host_github">
         <![CDATA[
-        "Hosts更新"开源地址:
+        \"Hosts更新\"开源地址:
         \n
         <a href="https://github.com/Joshua-Zheng/HostsUpdate">github.com/Joshua-Zheng/HostsUpdate</a>
         ]]>
     </string>
 
     <string name="author_github">每次都把咖啡泡甜了的小政政学长.</string>
-    <string name="your_mobile_have_no_root">您的手机没有获取Root权限, 无法修改Hosts文件, 请Root后再试.</string>
+    <string name="your_mobile_have_no_root">您的手机没有获取Root权限, 请Root后再试.</string>
     <string name="huifu_host_tips">恢复host成功.</string>
     <string name="get_last_host_tips">获取最新hosts成功.</string>
     <string name="loading">请稍后...</string>
