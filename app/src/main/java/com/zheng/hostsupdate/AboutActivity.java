@@ -27,9 +27,9 @@ public class AboutActivity extends AppCompatActivity {
         mHostGithubTxt.setText(Html.fromHtml(hostGithub));
         mAppGithubTxt.setText(Html.fromHtml(authorGithub));
 
-        mAboutTxt.setMovementMethod(LinkMovementMethod.getInstance());
-        mHostGithubTxt.setMovementMethod(LinkMovementMethod.getInstance());
-        mAppGithubTxt.setMovementMethod(LinkMovementMethod.getInstance());
+        //mAboutTxt.setMovementMethod(LinkMovementMethod.getInstance());
+        //mHostGithubTxt.setMovementMethod(LinkMovementMethod.getInstance());
+        //mAppGithubTxt.setMovementMethod(LinkMovementMethod.getInstance());
 
     }
 
