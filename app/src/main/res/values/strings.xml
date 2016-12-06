@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HostsUpdate</string>
+    <string name="get_last_host">Update</string>
+    <string name="huifu_host">Restore</string>
+    <string name="read_host">Read</string>
+    <string name="about">About</string>
+    <string name="get_root_fail">Get Root Fail.</string>
+    <string name="network_error">Network Error.</string>
+    <string name="about_detail">
+        The hosts file is from an Open Source Project of hosts on Github, I\'m Just a Porter of the Project.
+    </string>
+    
+    <string name="host_github">
+        <![CDATA[
+        Ths Open Source Address of hosts:
+        \n
+        <a href="https://github.com/Joshua-Zheng/HostsUpdate">github.com/Joshua-Zheng/HostsUpdate</a>
+        ]]>
+    </string>
+    
+    <string name="author_github">Designed By Zheng.</string>
+    <string name="your_mobile_have_no_root">Your Mobile Have No Root.</string>
+    <string name="huifu_host_tips">Restore Host Success.</string>
+    <string name="get_last_host_tips">Get Last Hosts Success.</string>
+    <string name="loading">Loading...</string>
+    <string name="exit">Press once more to exit.</string>
+    <string name="about_author">Designed By Zheng.</string>
+</resources>

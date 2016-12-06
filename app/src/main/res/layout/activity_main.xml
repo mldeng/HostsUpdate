@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.zheng.hostsupdate.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/top"
+        android:divider="@drawable/spacer_medium"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/proxy_btn"
+            android:layout_width="@dimen/button_display"
+            android:layout_height="@dimen/button_display"
+            style="Android:attr/buttonBarButtonStyle"
+            android:background="@drawable/get"
+            android:text="@string/get_last_host"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/clean_host"
+            android:layout_width="@dimen/button_display"
+            android:layout_height="@dimen/button_display"
+            style="Android:attr/buttonBarButtonStyle"
+            android:background="@drawable/restore"
+            android:text="@string/huifu_host"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:divider="@drawable/spacer_medium"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/read_host"
+            android:layout_width="@dimen/button_display"
+            android:layout_height="@dimen/button_display"
+            style="Android:attr/buttonBarButtonStyle"
+            android:background="@drawable/read"
+            android:text="@string/read_host"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="@dimen/button_display"
+            android:layout_height="@dimen/button_display"
+            style="Android:attr/buttonBarButtonStyle"
+            android:background="@drawable/about"
+            android:text="@string/about"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tips"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:gravity="bottom"
+        android:text="@string/about_author"/>
+
+</LinearLayout>

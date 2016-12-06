@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b2d212</color>
+    <color name="colorPrimaryDark">#abcc07</color>
+    <color name="colorAccent">#ff4750</color>
+
+    //Button设计
+    <color name="get_button">#49afcd</color>
+    <color name="restore_button">#faa732</color>
+    <color name="read_button">#5bb75b</color>
+    <color name="about_button">#ed615b</color>
+</resources>
