@@ -1,6 +1,6 @@
 # AndroidHosts
 
-![image](https://github.com/Joshua-Zheng/AndroidHosts/raw/master/Screenshot.png)
+![image](https://github.com/Joshua-Zheng/HostsUpdate/raw/master/Screenshot.png)
 
 This is an Android Application of get the hosts file.
 
