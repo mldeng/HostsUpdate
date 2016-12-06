@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HostsUpdate</string>
+    <string name="app_name">Hosts Update</string>
     <string name="get_last_host">Update</string>
     <string name="huifu_host">Restore</string>
     <string name="read_host">Read</string>
@@ -7,21 +7,31 @@
     <string name="get_root_fail">Get Root Fail.</string>
     <string name="network_error">Network Error.</string>
     <string name="about_detail">
+        <![CDATA[
+        License:
+        <br/>
         The hosts file is from an Open Source Project of hosts on Github, I\'m Just a Porter of the Project.
+        ]]>
     </string>
     
     <string name="host_github">
         <![CDATA[
-        Ths Open Source Address of hosts:
-        \n
-        <a href="https://github.com/Joshua-Zheng/HostsUpdate">github.com/Joshua-Zheng/HostsUpdate</a>
+        Instructions:
+        <br/>
+        Using this Application, you can explore on Google at China.(EX:Facebook, Twitter, etc.)
+        <br/>
+        Ⅰ. The hosts file belongs to the system files, So you\'d better Root your device.
+        <br/>
+        Ⅱ. After get Root Permission, then connect to the Internet and click the \"Update\" Button, you will get the last file.
+        <br/>
+        Ⅲ. If you find you can\'t explore on Google one day, please click the \"Update\" Button again. And if you don\'t want to use it, please click the \ "Restore \" Button to initialize.
         ]]>
     </string>
     
-    <string name="author_github">Designed By Zheng.</string>
+    <string name="author_github">Designed By Joshua-Zheng @ CSUFT</string>
     <string name="your_mobile_have_no_root">Your Mobile Have No Root.</string>
     <string name="huifu_host_tips">Restore Host Success.</string>
     <string name="get_last_host_tips">Get Last Hosts Success.</string>
-    <string name="loading">Loading...</string>
+    <string name="loading">Loading……</string>
     <string name="exit">Press once more to exit.</string>
 </resources>

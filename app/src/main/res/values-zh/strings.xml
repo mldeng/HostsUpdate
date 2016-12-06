@@ -2,27 +2,37 @@
 <resources>
     <string name="app_name">Hosts更新</string>
     <string name="get_last_host">更新</string>
-    <string name="huifu_host">恢复</string>
+    <string name="huifu_host">还原</string>
     <string name="read_host">查看</string>
     <string name="about">关于</string>
     <string name="get_root_fail">获取Root权限失败.</string>
     <string name="network_error">网络错误请稍后再试.</string>
     <string name="about_detail">
-        应用获取的hosts资源都是来自Github大神提供的一个hosts开源项目, 我只是一个hosts的搬运工.
+        <![CDATA[
+        许可申明：
+        <br/>
+        应用获取的hosts资源来自Github大神提供的一个hosts开源项目, 我只是hosts资源的搬运工.
+        ]]>
     </string>
 
     <string name="host_github">
         <![CDATA[
-        \"Hosts更新\"开源地址:
-        \n
-        <a href="https://github.com/Joshua-Zheng/HostsUpdate">github.com/Joshua-Zheng/HostsUpdate</a>
+        使用说明：
+        <br/>
+        使用本程序，您可以实现科学上网.
+        <br/>
+        Ⅰ. 因为hosts文件属于系统文件，所以本程序需要Root权限才能正常使用.
+        <br/>
+        Ⅱ. 获取Root权限后，联网点击\"更新\"圆形按钮，即可获取最新文件.
+        <br/>
+        Ⅲ. 如果过一段时间发现失效，请重新点击更新获取最新版本，如果不再使用，您可以点击\"还原\"按钮进行初始化.
         ]]>
     </string>
 
-    <string name="author_github">每次都把咖啡泡甜了的小政政学长.</string>
+    <string name="author_github">Designed By Joshua-Zheng @ CSUFT</string>
     <string name="your_mobile_have_no_root">您的手机没有获取Root权限, 请Root后再试.</string>
     <string name="huifu_host_tips">恢复host成功.</string>
     <string name="get_last_host_tips">获取最新hosts成功.</string>
-    <string name="loading">请稍后...</string>
+    <string name="loading">请稍后……</string>
     <string name="exit">再按一次退出.</string>
 </resources>
